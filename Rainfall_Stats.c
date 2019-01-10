@@ -37,7 +37,7 @@ int main()
 	The_year RFP[10];
 
 	FILE* RainFallFile;
-	if ((RainFallFile = fopen("C://Rostov.txt", "r")) == NULL)
+	if ((RainFallFile = fopen("C://Rainfall.txt", "r")) == NULL)
 	{
 		perror("Error occured while opening the file");
 		system("Pause");
